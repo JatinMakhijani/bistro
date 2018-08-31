@@ -1,0 +1,385 @@
+@font-face {
+    font-family: Playbill;
+    src: url(fonts/PLAYBILL.TTF);
+}
+
+body {
+    margin: 0;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fixed-nav-container {
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+
+.fixed-nav-container .nav-content {
+    color: white;
+    font-family: "Avenir Next Condensed";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.fixed-nav-container .nav-item {
+    padding-top: 20px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.fixed-nav-container .hours-nav {
+    padding-right: 50px;
+}
+
+.hero-container {
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    min-height: 720px;
+    height: 100vh;
+    background-image: url(images/hero_image.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+
+.menu-container {
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    min-height: 830px;
+    height: 100vh;
+    background-image: url(images/menu.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+
+.hours-container {
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    min-height: 830px;
+    height: 100vh;
+    background-image: url(images/hours.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+
+.hero-container .hero-content-container {
+    z-index: 2;
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    border-top-left-radius: 100%100px;
+    border-top-right-radius: 100%100px;
+    -webkit-box-shadow: 0px -31px 118px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -31px 118px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -31px 118px 0px rgba(0,0,0,0.75);
+}
+
+.hero-content-container .logo-container {
+    display: inline-block;
+    height: 100%;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.logo-container img {
+    width: 346px;
+}
+
+.hero-content-container .content {
+    display: inline-block;
+    height: 100%;
+    width: 330px;
+    font-family: "Avenir Next Condensed";
+}
+
+.content .location-content {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.content hr {
+    width: 280px;
+    background-color: #8A1E54;
+    border-color: #8A1E54;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .open-content {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.menu-container .menu-content-container {
+    z-index: 2;
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    border-top-left-radius: 100%100px;
+    border-top-right-radius: 100%100px;
+    -webkit-box-shadow: 0px -31px 118px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -31px 118px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -31px 118px 0px rgba(0,0,0,0.75);
+}
+
+.menu-content-container .menu-title {
+    font-family: "Avenir Next Condensed";
+    font-size: 30px;
+    font-weight: 500;
+    color: #8A1E54;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.menu-content-container .menu-row {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Playbill;
+    font-size: 26px;
+    letter-spacing: 1px;
+    height: 25px;
+}
+
+.menu-row .menu-item-left {
+    display: inline-block;
+    float: left;
+}
+
+.menu-row .menu-item-right {
+    display: inline-block;
+    float: right;
+}
+
+.menu-divider {
+    width: 510px;
+    border-color: #8A1E54;
+    background-color: #8A1E54;
+    margin-bottom: 5px;
+}
+
+.menu-more {
+    font-family: Playbill;
+    font-size: 26px;
+    color: #8A1E54;
+    letter-spacing: 1px;
+}
+
+.hours-container .hours-content-container {
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    border-top-left-radius: 100%100px;
+    border-top-right-radius: 100%100px;
+    -webkit-box-shadow: 0px -31px 118px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -31px 118px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -31px 118px 0px rgba(0,0,0,0.75);
+}
+
+.hours-content-container .hours-content {
+    vertical-align: top;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.hours-content .weekend {
+    font-family: Playbill;
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+.hours-content .weekend-hours {
+    font-family: "Avenir Next Condensed";
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: -5px;
+}
+
+.hours-content .hours-divider {
+    width: 100%;
+    border-color: #8A1E54;
+    background-color: #8A1E54;
+    margin: 5px;
+}
+
+.hours-content .other-days {
+    font-family: "Avenir Next Condensed";
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.hours-container .offerings-container {
+    /*padding-top: 20px;*/
+    display: inline-block;
+    font-family: Playbill;
+    font-size: 26px;
+    width: 275px;
+    height: 100%;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+.offerings-container .offering-divide {
+    margin: 5px;
+    background-color: #8A1E54;
+    border-color: #8A1E54;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 970px) {
+    .hero-container .hero-content-container {
+        height: 200px;
+    }
+
+    .logo-container img {
+        width: 250px;
+    }
+
+    .hero-content-container .content {
+        width: 230px;
+    }
+
+    .content .location-content {
+        font-size: 18px;
+    }
+
+    .content hr {
+        width: 200px;
+    }
+
+    .content .open-content {
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .hero-container {
+        background-image: url(images/hero_image_mobile.jpg);
+    }
+
+    .menu-content-container .menu-title {
+        font-size: 18px;
+        padding-top: 35px;
+    }
+
+    .menu-content-container .menu-row {
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .menu-divider {
+        width: 300px;
+    }
+
+    .menu-more {
+        font-size: 22px;
+    }
+
+    .hours-container .hours-content-container {
+        height: auto;
+    }
+
+    .hours-container {
+        height: 800px;
+        background-image: url(images/hours-mobile.jpg);
+    }
+
+    .hours-content-container .hours-content {
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        height: auto;
+    }
+
+    .hours-content .vertical-align {
+        top: 0;
+        transform: translateY(0);
+    }
+
+    .hours-container .offerings-container {
+        padding-top: 20px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+
+    .offerings-container .vertical-align {
+        top: 0;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 540px) {
+
+    .menu-container {
+        background-image: url(images/menu-mobile.jpg);
+    }
+
+    .hero-container, .menu-container, .hours-container {
+        background-attachment: inherit;
+    }
+
+    .hero-container .hero-content-container {
+        height: 300px;
+    }
+
+    .hero-content-container .logo-container {
+        display: block;
+        height: auto;
+        margin-right: 0;
+        margin-top: 15px;
+    }
+
+    .logo-container img {
+        top: 0;
+        transform: translateY(0);
+    }
+
+    .hero-content-container .content {
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .content .vertical-align {
+        top: 0;
+        transform: translateY(0);
+    }
+}
+

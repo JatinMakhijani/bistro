@@ -1,0 +1,261 @@
+@font-face {
+    font-family: Playbill;
+    src: url(fonts/PLAYBILL.TTF);
+}
+@font-face{
+    font-family: Avenir-Next;
+    src: url(fonts/Avenir-Next-Condensed.ttc);
+}
+body {
+    margin: 0;
+}
+/****----Hero Container----****/
+.hero-container{
+    background: url(images/hero_image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    min-height: 720px;
+    position: relative;
+    text-align: center;
+}
+.hero-nav-container {
+    height: 75px;
+    width: 100%;
+    font-family: "Avenir Next Condensed";
+    font-weight: 500;
+    box-shadow: 0 17px 0 0 rgba(43, 73, 33, 0.21) inset;
+}
+.bistro-tab {
+    color: white;
+    float: right;
+    margin-top: 14px;
+    padding-left: 27px;
+    padding-right: 35px;
+    cursor: pointer;
+}
+.menu-tab {
+    color: white;
+    float: right;
+    margin-top: 14px;
+    padding-left: 7px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.hours-tab {
+    color: white;
+    float: right;
+    margin-top: 14px;
+    padding-left: 27px;
+    padding-right: 46px;
+    cursor: pointer;
+}
+.catering-menu-tab {
+    color: white;
+    float: right;
+    margin-top: 14px;
+    padding-right: 46px;
+    cursor: pointer;
+}
+.contact-tab {
+    color: white;
+    float: right;
+    margin-top: 14px;
+    padding-right: 46px;
+    cursor: pointer;
+}
+
+.hero-content-container {
+    height: 240px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius:100% 100px;
+    border-top-right-radius:100% 100px;
+    text-align: center;
+}
+.hero-logo{
+    height: 100%;
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.hero-location {
+    height: 100%;
+    width: 350px;
+    display: inline-block;
+    font-family: Avenir-Next;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+.vertical {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+/*.hero-location-info {*/
+.hero-img {
+    height: 150px;
+    width: 346px;
+    padding-left: 0px;
+    margin-top: 40px;
+
+}
+/****----Menu Container----****/
+.menu-container {
+    height: 100vh;
+    width: 100vw;
+    min-height: 720px;
+    background: url(images/menu.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.menu-content-container {
+    height: 240px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius:100% 100px;
+    border-top-right-radius:100% 100px;
+}
+.menu-info {
+    height: 100%;
+    width: 515px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+.menu-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family:Avenir-Next ;
+    color: #8A1E54;
+}
+.menu-items {
+    font-size: 19px;
+    padding-top: 13px;
+    font-family: Playball;
+}
+.menu-more{
+    font-size: 16px;
+    padding-top: 1px;
+    text-align: center;
+    font-family:Avenir-Next ;
+    color: #8A1E54;
+}
+.menu-row-1 {
+    height: 35px;
+    width: 100%;
+    font-size: 28px;
+    font-family: Playbill;
+}
+.Bacon-Wrapped-Quail {
+    float: left;
+    padding-top: 14px;
+
+}
+.German-Sausage-Plate {
+    float: right;
+    padding-top: 14px;
+}
+.menu-row-2 {
+    height: 35px;
+    width: 100%;
+    font-size: 28px;
+    font-family: Playbill;
+}
+.Greek-Chicken {
+    float: left;
+    padding-top: 14px;
+}
+.Charcuterie-Board {
+    float: right;
+    padding-top: 14px;
+}
+.menu-row-3 {
+    height: 35px;
+    width: 100%;
+    font-size: 28px;
+    font-family: Playbill;
+}
+.Croque-Monsier {
+    float: left;
+    padding-top: 14px;
+}
+.Mexican-Street-Corn {
+    float: right;
+    padding-top: 14px;
+}
+/****----Hours Container----****/
+.hours-container {
+    background: url(images/hours.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    min-height: 720px;
+    position: relative;
+}
+.hours-content-container {
+    height: 240px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius:100% 100px;
+    border-top-right-radius:100% 100px;
+    text-align: center;
+}
+.hours-info {
+    height: 100%;
+    width: 234px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+
+}
+.service-info {
+    height: 100%;
+    width: 234px;
+    display: inline-block;
+    float: right;
+}
+
+.hours-days {
+    font-size: 44px;
+    font-family: Playbill;
+    margin-top: 37px;
+}
+.hours-time {
+    font-size:20px;
+}
+.reservation-info {
+    font-size:21px;
+    font-family:Avenir Next Condensed;
+
+}
+.service-info {
+    font-family: Playbill;
+    font-size: 28px;
+    padding-top: 45px;
+}
+.hours-info-container {
+    height:100%;
+    width: 525px;
+    margin-left: auto;
+    margin-right: auto;
+}
